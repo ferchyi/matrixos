@@ -1,0 +1,19 @@
+{
+  "name": "@ferchyi/matrixos",
+  "version": "0.18.5",
+  "description": "MatrixOS — AI Second Brain health scanner for Claude Code.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "brain-health-check": "dist/cli.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.0",
+    "zod": "^3.25.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Fernando Rodriguez <ferchyi@nocodematrix.com>",
+  "license": "MIT"
+}
